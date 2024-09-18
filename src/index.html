@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/119d948988.js" crossorigin="anonymous"></script>
+    <title>Login Instagram - Tailwind</title>
+</head>
+
+<body>
+    <div class="flex h-screen w-screen">
+
+        <!-- Imagem Principal-->
+        <div class="w-6/12 md:flex justify-end hidden">
+            <img class="w-max-96" src="./img/insta-img.png" alt="">
+        </div>
+
+        <!-- Formulário -->
+        <div class="w-full flex flex-col justify-center items-center md:w-6/12 md:items-start">
+            <form class="w-96 flex flex-col justify-center items-center border px-10 py-4 gap-5">
+                <img class="w-52" src="./img/insta-logo.png" alt="">
+                <input class="bg-slate-50 w-full h-9 px-3 rounded-md" type="text"
+                    placeholder="Phone number, username or email address">
+                <input class="bg-slate-50 w-full h-9 px-3 rounded-md" type="password" placeholder="Password">
+
+                <button class="bg-blue-400 w-full h-9 rounded-lg text-white font-black hover:bg-blue-300">Entrar</button>
+
+                <a class="text-blue-800 font-bold cursor-pointer"> <i class="fa-brands fa-facebook mr-1 text-base"></i>Logar com o Facebook</a>
+                <a class="text-blue-800 text-sm cursor-pointer">Esqueci minha senha</a>
+            </form>
+
+            <div class="flex flex-col justify-center items-center w-96 py-4 gap-5">
+                <div class="text-center border w-96 py-3">
+                    <p>Não tem conta? <span class="text-blue-600 cursor-pointer hover:text-blue-400">Cadastrar-se</span>
+                    </p>
+                    <p>Baixe o aplicativo</p>
+                </div>
+                <div class="flex gap-2">
+                    <img class="h-10 cursor-pointer" src="./img/apple.png" alt="">
+                    <img class="h-10 cursor-pointer" src="./img/google.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</html>
